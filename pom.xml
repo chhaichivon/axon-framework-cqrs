@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.chhaichivon</groupId>
+	<artifactId>parent</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>application</name>
+	<description>Axon Framework</description>
+
+	<properties>
+		<java.version>1.8</java.version>
+		<axon.version>3.0.2</axon.version>
+	</properties>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.10.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+
+	<modules>
+		<module>web</module>
+		<module>core</module>
+		<module>core-api</module>
+		<module>query</module>
+	</modules>
+
+	<!--<dependencies>-->
+		<!--<dependency>-->
+			<!--<groupId>org.axonframework</groupId>-->
+			<!--<artifactId>axon-core</artifactId>-->
+			<!--<version>${axon.version}</version>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>org.axonframework</groupId>-->
+			<!--<artifactId>axon-test</artifactId>-->
+			<!--<version>${axon.version}</version>-->
+		<!--</dependency>-->
+	<!--</dependencies>-->
+</project>
