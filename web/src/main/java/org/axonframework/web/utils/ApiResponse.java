@@ -60,9 +60,23 @@ public class ApiResponse<T> {
 
     private ResponseEntity<T> responseEntity(Page<T> entities) {
         if (entities.hasContent()) {
-            return new ResponseEntity<T>((T) getMapPageSuccess(entities), HttpStatus.OK);
+            return new ResponseEntity<>((T) getMapPageSuccess(entities), HttpStatus.OK);
         }else{
-            return new ResponseEntity<T>((T) getMapFail(), HttpStatus.OK);
+            return new ResponseEntity<>((T) getMapFail(), HttpStatus.OK);
+        }
+    }
+    private ResponseEntity<T> responseEntity(List<T> entities) {
+        if (entities != null) {
+            return new ResponseEntity<>((T) getMapListSuccess(entities), HttpStatus.OK);
+        }else{
+            return new ResponseEntity<>((T) getMapFail(), HttpStatus.OK);
+        }
+    }
+    private ResponseEntity<T> responseEntity(T entities) {
+        if (entities != null) {
+            return new ResponseEntity<>((T) getMapObjectSuccess(entities), HttpStatus.OK);
+        }else{
+            return new ResponseEntity<>((T) getMapFail(), HttpStatus.OK);
         }
     }
 }
