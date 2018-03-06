@@ -30,16 +30,16 @@
 		<module>query</module>
 	</modules>
 
-	<!--<dependencies>-->
-		<!--<dependency>-->
-			<!--<groupId>org.axonframework</groupId>-->
-			<!--<artifactId>axon-core</artifactId>-->
-			<!--<version>${axon.version}</version>-->
-		<!--</dependency>-->
-		<!--<dependency>-->
-			<!--<groupId>org.axonframework</groupId>-->
-			<!--<artifactId>axon-test</artifactId>-->
-			<!--<version>${axon.version}</version>-->
-		<!--</dependency>-->
-	<!--</dependencies>-->
+	<dependencies>
+		<dependency>
+			<groupId>org.axonframework</groupId>
+			<artifactId>axon-core</artifactId>
+			<version>${axon.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.axonframework</groupId>
+			<artifactId>axon-test</artifactId>
+			<version>${axon.version}</version>
+		</dependency>
+	</dependencies>
 </project>
