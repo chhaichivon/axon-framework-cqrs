@@ -1,58 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6c80a37-9914-4d9e-88e3-bfc247226d07" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_axonframework_axon_core_3_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_axonframework_axon_test_3_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_websocket_4_3_14_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_angular_ui_bootstrap_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_angularjs_1_4_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootstrap_3_3_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootswatch_cosmo_3_3_5_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_ng_stomp_0_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_sockjs_client_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bower_stomp_websocket_2_3_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_1_11_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_webjars_locator_0_30.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_webjars_locator_core_0_30.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/org/axonframework/web/config/AxonConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/org/axonframework/web/config/WebSocketConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/org/axonframework/web/dto/CategoryDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/org/axonframework/web/dto/ProductDTO.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core-api/src/test/java/org/axonframework/core/BaseQueryTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/core/src/test/java/org/axonframework/core/BaseQueryTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/query/src/test/java/org/axonframework/core/BaseQueryTest.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parent.iml" afterPath="$PROJECT_DIR$/parent.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pom.xml" afterPath="$PROJECT_DIR$/web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/web/src/main/resources/application.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_9_4_1212_jre7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_9_4_1212.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core-api/src/main/java/org/axonframework/core/api/category/CategoryCreatedCommand.java" afterPath="$PROJECT_DIR$/core-api/src/main/java/org/axonframework/web/api/category/CategoryCreatedCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core-api/src/main/java/org/axonframework/core/api/category/CategoryCreatedEvent.java" afterPath="$PROJECT_DIR$/core-api/src/main/java/org/axonframework/web/api/category/CategoryCreatedEvent.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core-api/src/main/java/org/axonframework/core/api/product/ProductCreatedCommand.java" afterPath="$PROJECT_DIR$/core-api/src/main/java/org/axonframework/web/api/product/ProductCreatedCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core-api/src/main/java/org/axonframework/core/api/product/ProductCreatedEvent.java" afterPath="$PROJECT_DIR$/core-api/src/main/java/org/axonframework/web/api/product/ProductCreatedEvent.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/org/axonframework/core/category/command/Category.java" afterPath="$PROJECT_DIR$/core/src/main/java/org/axonframework/web/category/command/Category.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/org/axonframework/core/category/command/CategoryCommandHandler.java" afterPath="$PROJECT_DIR$/core/src/main/java/org/axonframework/web/category/command/CategoryCommandHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/org/axonframework/core/product/command/Product.java" afterPath="$PROJECT_DIR$/core/src/main/java/org/axonframework/web/product/command/Product.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/core/src/main/java/org/axonframework/core/product/command/ProductCommandHandler.java" afterPath="$PROJECT_DIR$/core/src/main/java/org/axonframework/web/product/command/ProductCommandHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/query/src/main/java/org/axonframework/core/api/category/CategoryEntry.java" afterPath="$PROJECT_DIR$/query/src/main/java/org/axonframework/web/api/category/CategoryEntry.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/query/src/main/java/org/axonframework/core/api/category/CategoryEventListener.java" afterPath="$PROJECT_DIR$/query/src/main/java/org/axonframework/web/api/category/CategoryEventListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/query/src/main/java/org/axonframework/core/api/category/CategoryRepository.java" afterPath="$PROJECT_DIR$/query/src/main/java/org/axonframework/web/api/category/CategoryRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/query/src/main/java/org/axonframework/core/api/product/ProductEntry.java" afterPath="$PROJECT_DIR$/query/src/main/java/org/axonframework/web/api/product/ProductEntry.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/query/src/main/java/org/axonframework/core/api/product/ProductEventListener.java" afterPath="$PROJECT_DIR$/query/src/main/java/org/axonframework/web/api/product/ProductEventListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/query/src/main/java/org/axonframework/core/api/product/ProductRepository.java" afterPath="$PROJECT_DIR$/query/src/main/java/org/axonframework/web/api/product/ProductRepository.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/java/org/axonframework/core/Application.java" afterPath="$PROJECT_DIR$/web/src/main/java/org/axonframework/web/Application.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/java/org/axonframework/core/config/CORSFilter.java" afterPath="$PROJECT_DIR$/web/src/main/java/org/axonframework/web/config/CORSFilter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/java/org/axonframework/core/config/MvcConfiguration.java" afterPath="$PROJECT_DIR$/web/src/main/java/org/axonframework/web/config/MvcConfiguration.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/java/org/axonframework/core/config/SwaggerConfig.java" afterPath="$PROJECT_DIR$/web/src/main/java/org/axonframework/web/config/SwaggerConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/java/org/axonframework/core/utils/ApiResponse.java" afterPath="$PROJECT_DIR$/web/src/main/java/org/axonframework/web/utils/ApiResponse.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/java/org/axonframework/core/web/CategoryController.java" afterPath="$PROJECT_DIR$/web/src/main/java/org/axonframework/web/web/CategoryController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/java/org/axonframework/core/web/ProductController.java" afterPath="$PROJECT_DIR$/web/src/main/java/org/axonframework/web/web/ProductController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/test/java/org/axonframework/core/ApplicationTests.java" afterPath="$PROJECT_DIR$/web/src/test/java/org/axonframework/web/ApplicationTests.java" />
-    </list>
+    <list default="true" id="f6c80a37-9914-4d9e-88e3-bfc247226d07" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/core/target/" />
     <ignored path="$PROJECT_DIR$/core-api/target/" />
     <ignored path="$PROJECT_DIR$/web/target/" />
@@ -113,9 +62,11 @@
       <file leaf-file-name="WebSocketConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/src/main/java/org/axonframework/web/config/WebSocketConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-              <folding />
+            <state relative-caret-position="418">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1615,12 +1566,12 @@
       <workItem from="1519723351675" duration="4461000" />
       <workItem from="1519799103009" duration="2752000" />
       <workItem from="1519959294127" duration="6270000" />
-      <workItem from="1520317495698" duration="3221000" />
+      <workItem from="1520317495698" duration="3333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16740000" />
+    <option name="totallyTimeSpent" value="16852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
@@ -1648,7 +1599,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12861736" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4640943" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1988273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2124,9 +2075,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/org/axonframework/web/config/WebSocketConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="418">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
